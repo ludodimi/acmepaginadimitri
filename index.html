@@ -4,62 +4,79 @@
 <head>
   <title>Titolo della pagina</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-  
-  <body style="background-color:#364336;">
-    <div style="position:fixed; top:0px;margin:0px; height:30px; background-color:black;width:100%; color:white; border-bottom:1px solid red;">
-      <a href="#" onclick="mobile();" style="color:red">Mobile</a>
-      <a href="#" onclick="pc();" style="color:red">Pc</a>
-    </div>
-    
-    <div style="position:fixed; top:20px;margin:0px; height:62px; background-color:black;width:100%; color:white; border-bottom:1px solid red;margin-bottom:20px;">
-     <p style="letter-spacing: 1px; font-family:'Helvetica';">ACME<br />Accademia di Belle arti</p>
-    </div>
-    <div id="mainBody">
 
-    <div style="border:1px solid black; position:fixed; bottom:10px; right:10px; width:40px; border-radius:90px;">TOP
-    </div>
+<body>
+  <p id="logo">Acme</p>
+  <button id="discovermore" type="button" class="btn btn-outline-primary">Discover more</button>
 
-    <div style="height:180px;"></div>
-
-    <div style="max-width:600px;height:65px; margin: auto; background-color:#ff756e;border-radius: 15px;">
-      <p style="font-family:'Helvetica'; font-size:16pt; color:white; height:0px; text-align:center;"><b>OPEN DAY ONLINE</b></p>
-      <p style="text-align:center;font-family:'Helvetica';color: white;"><i>Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</i></p>
+  <div id="intestazione">
+    <div>
+      <img id="bandiere" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Italy_%28Pantone%2C_2003%E2%80%932006%29.svg/220px-Flag_of_Italy_%28Pantone%2C_2003%E2%80%932006%29.svg.png">
+      <img id="bandiere" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/200px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png">
+      <img id="bandiere" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png">
     </div>
+    <p id="acme">
+      ACME<br />Accademia di Belle arti</p>
+    <button id="bottoneinalto" type="button" class="btn btn-outline-secondary">Menù</button>
+
+  </div>
+
+  <div id="bottontop" onclick="scrolltotop()">
+    TOP
+  </div>
+  <div style="height:40px;"></div>
+
+  <div id="openday1">
+    <p id="paragrafo1"><b>OPEN DAY ONLINE</b></p>
+    <p id="paragrafo2"><i>Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</i></p>
+  </div>
   <div style="height:5px"></div>
-     <div style="max-width: 600px;height: 65px; margin: auto; background-color: orange; color: white; border-radius:15px;">
-      <p style="font-family:'Helvetica'; font-size:16pt; color:white; height:0px; text-align:center;"><b>OPEN DAY INTERATTIVO</b></p>
-      <p style="text-align:center;font-family:'Helvetica';color: white;"><i>Clicca qui per iscriverti alla presentazione online</i></p>
-    </div>
-      <div style="height:5px"></div>
-      <div style="border:1px solid white; max-width:850px; height: 300px; margin: auto; background-color: black; color: white;">
-        <p style="width:100px; height:100px; border:1px solid red; border-radius: 100%;margin: 40px 50px 30px 90px;"></p>
-        <p style="width:200px; height:100px; float: left; margin:auto; margin: 0px 0px 0px 50px; text-align:center;font-family:Helvetica;">OFFERTA FORMATIVA </br>
-Una formazione globale
-per i professionisti in campo artistico
-e nella comunicazione per immagini
-(info)</p>
-    <p style="width:100px; height:100px; border:1px solid red; border-radius: 100%;margin: -130px 0px 0px 130px; float:left"></p>
-    <p style="width:200px; height:100px; float:left; text-align:center;margin: 0px 0px 90px 90px;font-family:Helvetica;">DURATA E TITOLI</br>
-I corsi di studio prevedono
-un percorso formativo
-distinto in più cicli
-(info)</p>
-<p style="width:100px; height:100px; border:1px solid red; border-radius: 100%;margin: -130px 0px 0px 140px; float:left"></p>
-  <p style="width:200px; height:100px; float: left; margin: 0px 0px 90px 100px; text-align:center;font-family:Helvetica;">BORSE DI STUDIO</br>
-Gli studenti ACME beneficiano dei
-contributi previsti dalla normativa
-e gestiti dall'Ente regionale preposto
-(info)
+  <div id="openday2">
+    <p id="paragrafo1"><b>OPEN DAY INTERATTIVO</b></p>
+    <p id="paragrafo2"><i>Clicca qui per iscriverti alla presentazione online</i></p>
+  </div>
+  <div style="height:5px"></div>
+  <div id="rettangolo1">
+    <p id="cerchio1"><i id="icona1" class="fa-solid fa-bullhorn"></i></p>
+    <p id="paragrafo4">OFFERTA FORMATIVA </br>
+      Una formazione globale
+      per i professionisti in campo artistico
+      e nella comunicazione per immagini
+      (info)</p>
+    <p id="cerchio2"><i id="icona2" class="fa-duotone fa-file-certificate"></i></p>
+    <p id="paragrafo5">DURATA E TITOLI</br>
+      I corsi di studio prevedono
+      un percorso formativo
+      distinto in più cicli
+      (info)</p>
+    <p id="cerchio3"><i id="icona3" class="fa-solid fa-book-blank"></i></p>
+    <p id="paragrafo6">BORSE DI STUDIO</br>
+      Gli studenti ACME beneficiano dei
+      contributi previsti dalla normativa
+      e gestiti dall'Ente regionale preposto
+      (info)
 
- </p>
-      </div>
-<div style="height:50px"></div>
-      <div style="max-width:850px; height: 300px; margin: auto; background-color: black; color: white;">
-         <p style="letter-spacing: 3px; font-family:Helvetica; margin: 0px 0px 0px 20px">LA CREATIVITA' E' LA TUA PROFESSIONE</p>
-        <div style="width:5px; height:30px;background-color:#ff756e;margin: 90px 0px 0px 20px;"> <p style="font-family:Helvetica; font-size:24pt;width:400px; margin: 0px 0px 0px 20px">WELCOME TO ACME</p>
-<p style="font-family:Helvetica; margin: 50px 0px 0px 0px; width:450px;">Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello
-►►► info</p>
-        
-        </div>
-    
+    </p>
+  </div>
+  <div style="height:50px"></div>
+  <div id="rettangolo2">
+    <iframe id="video" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <p id="titolo1">LA CREATIVITA' E' LA TUA PROFESSIONE</p>
+    <div id="rettangolino">
+      <p id="titolo2">WELCOME TO ACME</p>
+      <p id="paragrafo8">Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello
+        </br> ►►► info</p>
+    </div>
+  </div>
+  <script>
+    function scrolltotop() {
+      window.scrollTo(0, 0);
+    }
+  </script>
+</body>
+
+</html>
