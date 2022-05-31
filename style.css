@@ -1,4 +1,116 @@
-dius: 15px;
+body {
+  background-image: url("https://www.medusaexperience.com/wp-content/uploads/2019/11/Technology_1.jpg");
+  background-size: 1500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#bandiere {
+  float: left;
+  width: 50px;
+  height: 30px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+#intestazione {
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  height: 62px;
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid blue;
+  margin-bottom: 20px;
+  text-align: center;
+  float: center;
+}
+#bottoneinalto {
+  float: right;
+  width: 100px;
+  height: 30px;
+  margin: 10px 60px 0px 0px;
+  border: 1px solid blue;
+  background-color: black;
+  color: blue;
+  font-family: High Spirited;
+  font-size: 22pt;
+}
+#logo {
+  font-family: High Spirited;
+  font-size: 200pt;
+  text-align: center;
+  attachment: fixed;
+  color: white;
+  float: center;
+  height: 30px;
+}
+#discovermore {
+  text-align: center;
+  float: center;
+  margin: 40px 0px 0px 650px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: blue;
+  opacity: 0.9;
+  border: white;
+  font-family: Helvetica;
+}
+#acme {
+  letter-spacing: 1px;
+  font-family: "Helvetica";
+  text-align: center;
+  float: left;
+  margin: 10px 0px 0px 370px;
+}
+#openday1 {
+  max-width: 600px;
+  height: 65px;
+  margin: auto;
+  background-color: #00008b;
+  border-radius: 15px;
+}
+#icona1 {
+  font-size: 45pt;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}
+#icona2 {
+  font-size: 45pt;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: white;
+}
+#icona3 {
+  font-size: 45pt;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: white;
+}
+#paragrafo1 {
+  font-family: "Helvetica";
+  font-size: 16pt;
+  color: white;
+  height: 10px;
+  text-align: center;
+}
+#paragrafo2 {
+  text-align: center;
+  font-family: "Helvetica";
+  color: white;
+}
+#openday2 {
+  max-width: 600px;
+  height: 65px;
+  margin: auto;
+  background-color: #daa520;
+  color: white;
+  border-radius: 15px;
 }
 #rettangolo1 {
   border: 3px solid #00008b;
