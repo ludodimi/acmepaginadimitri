@@ -1,9 +1,9 @@
 body {
   background-image: url("https://www.medusaexperience.com/wp-content/uploads/2019/11/Technology_1.jpg");
-  background-size: 1500px;
+  background-size: 2000px;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  width: 1300px;
+  width: 100%;
 }
 #bandiere {
   float: left;
