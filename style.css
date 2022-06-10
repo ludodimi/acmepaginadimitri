@@ -1,5 +1,5 @@
 body {
-  background-image: url("fluid-gradient-background-vector.jpg");
+  background-image: url("background-image.jpg");
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -42,13 +42,6 @@ body {
   color: blue;
   font-family: "Bebas Neue";
   font-size: 14pt;
-}
-#logo {
-  background-image: url("1107018786.png")
-  text-align: center;
-  attachment: fixed;
-  float: center;
-  height: 30px;
 }
 #discovermore {
   text-align: center;
