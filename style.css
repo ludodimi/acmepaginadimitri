@@ -44,11 +44,9 @@ body {
   font-size: 14pt;
 }
 #logo {
-  font-family: "Water Brush";
-  font-size: 200pt;
+  background-image: url("1107018786.png")
   text-align: center;
   attachment: fixed;
-  color: white;
   float: center;
   height: 30px;
 }
