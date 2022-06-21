@@ -1,7 +1,23 @@
+var myCarousel = document.querySelector(".carousel");
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 2000,
+  wrap: true
+});
+
 function scrolltotop() {
   window.scrollTo(0, 0);
 }
-//cookie
-function onmousehover() {
-  document.getElementById("pc").style.display = "none";
+
+function showText() {
+  var cookietext=document.getElementById("cookietext");
+        cookietext.classList.remove("hidden");
+  
 }
+function hideText() {
+ var cookietext=document.getElementById("cookietext");
+  cookietext.classList.add("hidden");
+}
+
+
+
+
