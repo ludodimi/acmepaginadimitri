@@ -7,6 +7,9 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 function scrolltotop() {
   window.scrollTo(0, 0);
 }
+function scrolltobottom() {
+    window.scrollTo(6000, 6000);
+}
 
 function showText() {
   var cookietext=document.getElementById("cookietext");
