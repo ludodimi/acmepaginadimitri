@@ -1,27 +1,29 @@
 body {
-    background-image: url("foto-web/background-image.jpg");
+    background-image: url("images/wallpaper.jpg");
     background-size: 100%;
     background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-position: 0px -200px;
+    background-repeat: repeat/y;
+    background-position: 0px 0px;
     width: 100%;
 }
-
+#logo{
+    width:400px;
+    margin: 100px 0px 0px 600px;
+}
 
 #discovermore {
     text-align: center;
-    float: center;
-    margin: 400px 0px 0px 700px;
+    margin: 200px 0px 0px 700px;
     width: 150px;
     height: 40px;
     color: white;
-    background-color: #00008b;
+    background-color: #712fc7;
     opacity: 0.9;
     border: white;
     font-family: "Bebas Neue";
 }
 #discovermore:hover {
-    outline: 2px solid blue;
+    outline: 2px solid #2a1648;
 }
 .lingue-bandiere {
     float: left;
@@ -43,12 +45,12 @@ body {
     min-height: 62px;
     background-color: black;
     background-size: 1200px;
-    opacity: 0.9;
     width: 100%;
     color: white;
     border-bottom: 1px solid blue;
     margin-bottom: 20px;
     text-align: center;
+     z-index:1;
 
 }
 #flags{
@@ -81,18 +83,34 @@ body {
     border: 2px solid white;
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 50px;
     width: 40px;
-    border-radius: 90px;
+    border-radius: 100px;
     color: white;
     text-align: center;
     font-family: "Bebas Neue";
+    font-size:14pt;
+    cursor: pointer;
+}
+#bottondown{
+    border: 2px solid white;
+     position: fixed;
+     bottom: 10px;
+     right: 10px;
+    width: 40px;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size:14pt;
+     cursor: pointer;
+     
 }
 #boxopenday1 {
     max-width: 600px;
     height: 65px;
     margin: auto;
-    background-color: #00008b;
+    background-color: #c166fb;
     border-radius: 15px;
     margin-top: 30px;
 }
@@ -123,22 +141,18 @@ body {
     height: 300px;
     margin: auto;
     margin-top: 20px;
-    background-color: #00008b;
+    background-color: #2a1648;
     opacity: 0.7;
 }
 #icona1 {
     font-size: 50pt;
-    margin-left: 300px;
-    margin-right: 400px;
-    margin-top: 20px;
+    margin:20px auto auto 300px;
     color: white;
-    float: left;
 }
 #p3 {
     width: 200px;
     height: 100px;
-    margin: auto;
-    margin: 50px 400px 0px 270px;
+    margin: 50px 0px 0px 220px;
     text-align: center;
     font-family: "Bebas Neue";
     color: white;
@@ -148,23 +162,20 @@ body {
     font-size: 50pt;
     margin-top: 18px;
     margin-right: 0px;
-    margin-left: -120px;
+    margin-left: 200px;
     color: white;
 }
 #icona3 {
     font-size: 45pt;
     margin-top: 20px;
-    margin-right: 300px;
+    margin-left: 90px;
     color: white;
-    float: right;
 }
 #p4 {
     width: 200px;
     height: 100px;
-    margin: auto;
-    margin-right: 0px;
-    margin-left: 580px;
-    margin-top: -100px;
+    margin-left: 130px;
+    margin-top: 50px;
     text-align: center;
     font-family: "Bebas Neue";
     color: white;
@@ -173,9 +184,8 @@ body {
 #p5 {
     width: 200px;
     height: 100px;
-    margin: auto;
-    margin-right: 220px;
-    margin-top: -100px;
+    margin-top: 50px;
+    margin-left:10px;
     text-align: center;
     font-family: "Bebas Neue";
     color: white;
@@ -187,7 +197,7 @@ body {
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #00008b;
+    background-color: #8a00b5;
     color: white;
 }
 #video {
@@ -225,29 +235,33 @@ body {
     max-width: 850px;
     height: 292px;
     margin: 30px auto 0px auto;
-    background-color: #00008b;
+    background-color: #2a1648;
     color: white;
-    opacity: 0.6;
+    opacity:0.7;
     border-radius: 10px;
+    border: 2px solid magenta;
 }
 #virgolette {
     color: white;
     font-size: 24pt;
-    float: center;
     margin: auto;
-    margin-left: 400px;
+    margin-left: 410px;
     margin-top: 0px;
 }
 .carousel-item button {
     margin: 28px auto 0px auto !important;
     display: block !important;
 }
+.btn-outline-primary {
+  color: #c166fb;
+  border-color: #c166fb;
+}
 
 #rettangolo4 {
     max-width: 850px;
     height: 292px;
     margin: 30px auto 0px auto;
-    background-color: #00008b;
+    background-color: #712fc7;
     color: white;
     border-radius: 10px;
 }
@@ -274,7 +288,7 @@ body {
     border: 3px solid white;
 }
 #indirizzo1 {
-    width: 100%;
+    max-width: 1600px;
     height: 400px;
     background-color: #8a00b5;
     margin-top: 20px;
@@ -295,21 +309,24 @@ body {
     margin: 0px 0px 0px 20px;
 }
 #pittura {
-    margin: 30px 0px 0px 600px;
+    margin-left:700px;
     font-size: 24pt;
     color: #daa520;
     font-family: "Bebas Neue";
 }
+.pittura: hover{
+    outline: 1px solid white;
+}
 .scuole {
-    margin: 0px 0px 0px 350px;
+    margin: 0px 0px 0px 460px;
     font-size: 18pt;
-    width: 600px;
+    width: 576px;
     color: white;
     text-align: center;
     font-family: "Bebas Neue";
 }
 #grafica {
-    margin: 0px 0px 0px 443px;
+    margin: 0px 0px 0px 550px;
     font-size: 24pt;
     width: 400px;
     color: #00b3ff;
@@ -333,21 +350,19 @@ body {
     font-family: Helvetica;
 }
 #scenografia {
-    margin: 30px 0px 0px 600px;
+    margin: 30px 0px 0px 700px;
     font-size: 24pt;
     color: #00b378;
-    float: center;
     font-family: "Bebas Neue";
 }
 #progettazione {
-    margin: 30px 0px 0px 470px;
+    margin: 30px 0px 0px 550px;
     font-size: 24pt;
     color: #eb0000;
-    float: center;
     font-family: "Bebas Neue";
 }
 #tecnologie {
-    margin: 30px 0px 0px 500px;
+    margin: 30px 0px 0px 600px;
     font-size: 24pt;
     color: #fa8717;
     float: center;
@@ -371,19 +386,18 @@ body {
     font-family: Helvetica;
 }
 #comunicazione {
-    margin: 30px 0px 0px 270px;
+    margin: 30px 0px 0px 400px;
     font-size: 24pt;
-    color: #b80070;
-    float: center;
+    color: #befc12;
     font-family: "Bebas Neue";
 }
 #boxdurata {
-    width: 850px;
-    height: 800px;
+    max-width: 850px;
+    min-height: 900px;
     margin: 10px 0px 0px 0px;
     margin: auto;
-    float: center;
-    background-color: #00008b;
+    background-color: #d9466f;
+    opacity:0.9;
     color: white;
     border-radius: 90px;
 }
@@ -402,34 +416,37 @@ body {
 #spiegazione {
     font-family: "Helvetica";
     margin: 50px 0px 0px 20px;
-    width: 800px;
+    max-width: 770px;
     text-align: giustify;
 }
 #boxborse {
-    width: 850px;
-    height: 350px;
+    max-width: 850px;
+    min-height: 350px;
     margin: 10px 0px 0px 0px;
     margin: auto;
-    float: center;
-    background-color: #00008b;
+    background-color: #fa6662;
+    opacity:0.9;
     color: white;
     border-radius: 90px;
 }
 #map {
     width: 100%;
-    height: 400px;
+    height: 250px;
     margin-top: 20px;
 }
 #contact {
     width: 100%;
     height: 200px;
-    background-color: magenta;
+    background-color: #712cc5;
     text-align: center;
     margin-top: 50px;
 }
 #testofooter {
     text-align: center;
     color: white;
+    margin-bottom: 0px;
+    font-size: 9pt;
+    margin-top: 20px;
 }
 #social {
     font-size: 24pt;
@@ -439,20 +456,57 @@ body {
 #cookie {
     position: fixed;
     bottom:0px;
-    left:0px;
-    font-size:18pt;
+    left:10px;
+    font-size:30pt;
+    color: #743202;
+}
+#cookieicon{
+    border: 1px solid #743202;
+    border-radius: 100px;
+     cursor: pointer;
+}
+#cookietext {
+  background-color: indigo;
+  color: white;
+  font-size:9pt;
+  width:240px;
+  border-radius: 5px;
+  margin:-164px 0px 20px 60px;
+   cursor: pointer;
+   font-family:Helvetica;
 }
 .hidden{
     display:none;
 }
+@media only screen and (max-width:576px){
+    #logo{
+        margin-left:100px;
+    }
+}
 @media only screen and (max-width: 600px) {
     #body{
         margin:50px auto 0px auto;
+        background-size: 180%;
     }
 }
-@media only screen and(max-width: 500px){
+@media only screen and (max-width: 576px){
     #icona1{
-        margin:10px 60px auto -90px;
+        margin: 20px 50px auto 250px;
+    }
+    #p3{
+        margin: 30px auto auto 180px;
+    }
+    #icona2{
+        margin: 315px 50px auto 50px;
+    }
+    #p4{
+        margin: 30px 0px 0px -10px;
+    }
+    #icona3{
+        margin: 580px 0px 0px -130px; 
+    }
+    #p5{
+        margin: 30px 0px 0px -200px;
     }
 }
 @media only screen and (max-width:600px){
@@ -460,7 +514,8 @@ body {
         height: 600px;
     }
     #video{
-        margin:10px 18px auto 0px;
+        margin:0px 0px 0px 0px;
+        width:576px;
     }
 }
 
@@ -471,20 +526,20 @@ body {
 }
 @media only screen and (max-width:600px){
     #discovermore{
-        margin:400px auto 0px 160px;
+        margin:100px auto 0px 220px;
     }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 576px){
     #box3 {
         height: 850px;
     }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:576px){
     #virgolette{
-        margin:auto 0px auto 230px;
+        margin:auto 0px auto 270px;
     }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 576px){
     #rettangolo4{
         height:300px;
     }
@@ -502,34 +557,60 @@ body {
        margin: 20px 20px auto auto;
     }
 }
-@media only screen and(max-width:500px){
-    #indirizzo1{
-        height: 900px;
+@media only screen and (max-width:576px){
+    #indirizzo1 {
+        height: 350px;
     }
-    #pittura{
-        margin:0px 260px 0px 240px;
+    #pittura {
+        margin:30px 0px 0px 220px;
     }
-    #grafica{
-        margin:0px 0px 0px 0px;
+    #grafica {
+        margin:30px 0px 0px 70px;
     }
-    .scuole{
+    .scuole {
         width: 500px;
-        margin:00px 0px auto 0px;
+        margin:0px 0px auto 30px;
+    }
+    #dipartimento2 {
+        width:570px;
+    }
+    #scenografia {
+        margin: 30px 0px 0px 220px;
+    }
+    #progettazione {
+        width:300px;
+        margin: 20px 0px 0px 130px; 
+        text-align: center;
     }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:576px){
     #indirizzo2 {
-        height:900px;
+        height:800px;
+    }
+    #tecnologie {
+        margin: 30px 0px 0px 10px;
+        text-align: center;
     }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:576px){
     #dipartimento2{
         width: 460px;
         margin-left:20px;
     }
-}
-@media only screen and (max-width: 500px){
-    #scenografia{
-        margin: 10px 100px auto 170px;
+    #indirizzo3 {
+        height:300px;
     }
+    #dipartimento3{
+        width:500px;
+    }
+    #comunicazione {
+        margin: 20px 0px 0px 10px;
+        text-align: center;
+    }
+}
+@media only screen and(max-width:576px) {
+    #map{
+        width:576px;
+    }
+    
 }
