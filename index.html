@@ -25,8 +25,8 @@
             <div id="acme">ACME<br />Accademia di Belle arti</div>
             <button id="bottoneinalto" type="button" class="btn btn-outline-secondary">Menù</button>
         </div>
-        
-        <button id="discovermore" type="button" class="btn btn-outline-primary">Discover more</button>
+            <img id="logo" src="Risorsa 1.png" alt="logo">
+            <button id="discovermore" type="button" class="btn btn-outline-primary"><a href="#box3">Discover more</a></button>
 
         <div id="boxopenday1">
             <p class="p1"><b>OPEN DAY ONLINE</b></p>
@@ -36,47 +36,34 @@
             <p class="p1"><b>OPEN DAY INTERATTIVO</b></p>
             <p class="p2"><i>Clicca qui per iscriverti alla presentazione online</i></p>
         </div>
-        <div id="box3">
-            <div class="container-fluid">
-                <div class="table">
-                    <thead>
-                        <tr>
-                            <th><i id="icona1" class="fa-solid fa-bullhorn"></i></th>
-                            <th><i id="icona2" class="fa-solid fa-stamp"></i></th>
-                            <th><i id="icona3" class="fa-solid fa-book-atlas"></i></th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th>
-                                <p id="p3"><b>OFFERTA FORMATIVA</b>
+        <div id="box3" class="container-fluid mt-">
+            <div class="row">
+                <div class="col-sm-4">
+                <i id="icona1" class="fa-solid fa-bullhorn"></i>
+                <p id="p3"><b>OFFERTA FORMATIVA</b>
                                     </br>
                                     Una formazione globale
                                     per i professionisti in campo artistico
                                     e nella comunicazione per immagini
-                                    <ins>(info)</ins>
-                            </th>
-                            <th>
-                                <p id="p4"><b>DURATA E TITOLI</b></br>
+                                    <ins><a href="#virgolette">(info)</a></ins></p></div>
+                <div class="col-sm-4">
+                          <i id="icona2" class="fa-solid fa-stamp"></i><p id="p4"><b>DURATA E TITOLI</b></br>
                                     I corsi di studio prevedono
                                     un percorso formativo
                                     distinto in più cicli
-                                    <ins>(info)</ins>
-                                </p>
-                            </th>
-                            <th>
-                                <p id="p5"><b>BORSE DI STUDIO</b></br>
+                                    <ins><a href="#comunicazione">(info)</a></ins>
+                          </p></div>
+                <div class="col-sm-4">            
+                <i id="icona3" class="fa-solid fa-book-atlas"></i>
+                       <p id="p5"><b>BORSE DI STUDIO</b></br>
                                     Gli studenti ACME beneficiano dei
                                     contributi previsti dalla normativa
                                     e gestiti dall'Ente regionale preposto
-                                    <ins>(info)</ins>
+                                    <ins><a href="#boxborse">(info)</a></ins>
                                 </p>
-                            </th>
-                        </tr>
-                    </thead>
                 </div>
-            </div>
-        </div>
+                                </div>
+                </div>
         <div id="boxconvideo">
             <iframe id="video" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             <p id="titolo1">LA CREATIVITA' E' LA TUA PROFESSIONE</p>
@@ -176,18 +163,15 @@
                 ACME Accademia di Belle Arti Europea dei Media<br>
                 © Sella srl - PI 01176320032</p>
         </footer>
-        <div id="bottontop" onclick="scrolltotop()">
-            TOP
+       <div id="bottondown" onclick="scrolltobottom()"><i class="fa-solid fa-angle-down"></i></div>
+         <div id="bottontop" onclick="scrolltotop()"><i class="fa-solid fa-angle-up"></i>
         </div>
         <div id="cookie" >
-            <i class="fa-solid fa-cookie-bite" onclick="showText()"></i>
+            <i id="cookieicon" class="fa-solid fa-cookie-bite" onclick="showText()"></i>
 
                 <div id="cookietext" class="hidden">
-                    QUESTO SITO WEB UTILIZZA COOKIE<br><br>Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione.<br>           Utilizzando il nostro sito web acconsenti a tutti i cookie in conformità con la nostra policy per i cookie.
-              
-                    <i class="fa-solid fa-xmark" onclick="hideText()"></i>
-               
-                </div>
+                    QUESTO SITO WEB UTILIZZA COOKIE  <i class="fa-solid fa-xmark" onclick="hideText()"></i><br><br>Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione.<br>           Utilizzando il nostro sito web acconsenti a tutti i cookie in conformità con la nostra policy per i cookie.
+               </div>
         </div>
         <script src="script.js"></script>
     </body>
