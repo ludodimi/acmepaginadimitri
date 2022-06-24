@@ -65,20 +65,6 @@ body {
     margin: 10px auto 0px auto;
 }
 
-#bottoneinalto {
-    position:absolute;
-    top:0px;
-    right:0px;  
-    text-align: center;
-    float: right;
-    width: 100px;
-    height: 30px;
-    margin: 15px 60px 0px 0px;
-    border: 2px solid blue;
-    color: blue;
-    font-family: "Bebas Neue";
-    font-size: 14pt;
-}
 #bottontop {
     border: 2px solid white;
     position: fixed;
@@ -108,7 +94,6 @@ body {
 }
 #boxopenday1 {
     max-width: 600px;
-    height: 65px;
     margin: auto;
     background-color: #c166fb;
     border-radius: 15px;
@@ -128,7 +113,6 @@ body {
 }
 .boxopenday2 {
     max-width: 600px;
-    height: 65px;
     margin: auto;
     background-color: #8a00b5;
     color: white;
@@ -399,7 +383,7 @@ body {
     background-color: #d9466f;
     opacity:0.9;
     color: white;
-    border-radius: 90px;
+    border-radius: 30px;
 }
 #rettangolino4 {
     width: 5px;
@@ -427,7 +411,7 @@ body {
     background-color: #fa6662;
     opacity:0.9;
     color: white;
-    border-radius: 90px;
+    border-radius: 30px;
 }
 #map {
     width: 100%;
