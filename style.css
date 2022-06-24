@@ -479,67 +479,55 @@ body {
     display:none;
 }
 @media only screen and (max-width:576px){
-    #logo{
-        margin-left:100px;
+    #flags{
+        margin:0px auto 0px 70px;
     }
-}
-@media only screen and (max-width: 600px) {
-    #body{
+    #acme {
+        margin: 50px 200px 0px auto;
+    }
+    #logo{
+        margin-left:0px;
+    }
+   #body{
         margin:50px auto 0px auto;
         background-size: 180%;
+    } 
+     #discovermore{
+        margin:100px auto 0px 130px;
     }
-}
-@media only screen and (max-width: 576px){
     #icona1{
-        margin: 20px 50px auto 250px;
+        margin: 20px 50px auto 150px;
     }
     #p3{
-        margin: 30px auto auto 180px;
+        margin: 30px auto auto 80px;
     }
     #icona2{
-        margin: 315px 50px auto 50px;
+        margin: 80px 0px auto 150px;
     }
     #p4{
-        margin: 30px 0px 0px -10px;
+        margin: 30px 0px 0px 80px;
     }
     #icona3{
-        margin: 580px 0px 0px -130px; 
+        margin: 50px 0px 0px 150px; 
     }
     #p5{
-        margin: 30px 0px 0px -200px;
+        margin: 30px 0px 0px 80px;
     }
-}
-@media only screen and (max-width:600px){
-    #boxconvideo{
-        height: 600px;
-    }
-    #video{
-        margin:0px 0px 0px 0px;
-        width:576px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #acme {
-        margin: 50px auto 0px auto;
-    }
-}
-@media only screen and (max-width:600px){
-    #discovermore{
-        margin:100px auto 0px 220px;
-    }
-}
-@media only screen and (max-width: 576px){
     #box3 {
         height: 850px;
     }
-}
-@media only screen and (max-width:576px){
-    #virgolette{
-        margin:auto 0px auto 270px;
+    #boxconvideo{
+        height:600px;
     }
-}
-@media only screen and (max-width: 576px){
+    #paragrafo8{
+        width:350px;
+    }
+    #video{
+        width:400px;
+    }
+    #virgolette{
+        margin:auto 0px auto 180px;
+    }
     #rettangolo4{
         height:300px;
     }
@@ -556,61 +544,57 @@ body {
        height: 130px;
        margin: 20px 20px auto auto;
     }
-}
-@media only screen and (max-width:576px){
     #indirizzo1 {
-        height: 350px;
+        height: 380px;
+    }
+    #dipartimento{
+        width:350px;
     }
     #pittura {
-        margin:30px 0px 0px 220px;
+        margin:30px 0px 0px 140px;
     }
     #grafica {
-        margin:30px 0px 0px 70px;
+        margin:1px 0px 0px -20px;
     }
     .scuole {
-        width: 500px;
-        margin:0px 0px auto 30px;
+        width: 320px;
+        margin:0px 0px auto 20px;
     }
     #dipartimento2 {
-        width:570px;
+        width:385px;
     }
     #scenografia {
-        margin: 30px 0px 0px 220px;
+        margin: 30px 0px 0px 120px;
     }
     #progettazione {
         width:300px;
-        margin: 20px 0px 0px 130px; 
+        margin: 20px 0px 0px 40px; 
         text-align: center;
     }
-}
-@media only screen and (max-width:576px){
     #indirizzo2 {
-        height:800px;
+        height:850px;
     }
     #tecnologie {
         margin: 30px 0px 0px 10px;
         text-align: center;
     }
-}
-@media only screen and (max-width:576px){
-    #dipartimento2{
-        width: 460px;
-        margin-left:20px;
-    }
     #indirizzo3 {
-        height:300px;
+        height:450px;
     }
     #dipartimento3{
-        width:500px;
+        width:330px;
     }
     #comunicazione {
         margin: 20px 0px 0px 10px;
         text-align: center;
     }
-}
-@media only screen and(max-width:576px) {
+    #rettangolino4{
+        margin-left:40px;
+    }
+    #duratatitoli{
+        margin-left:50px;
+    }
     #map{
         width:576px;
     }
-    
 }
