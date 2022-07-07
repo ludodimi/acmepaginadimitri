@@ -1,19 +1,24 @@
+html{
+    display:block;
+}
 body {
     background-image: url("images/wallpaper.jpg");
     background-size: 100%;
     background-attachment: fixed;
-    background-repeat: repeat/y;
+    background-repeat: repeat-y;
     background-position: 0px 0px;
     width: 100%;
 }
 #logo{
-    width:400px;
-    margin: 100px 0px 0px 600px;
+    width:50%;
+    margin: 100px auto 0px auto;
+    display:block;
 }
 
 #discovermore {
+    display:block;
     text-align: center;
-    margin: 200px 0px 0px 700px;
+    margin: 200px auto 0px auto;
     width: 150px;
     height: 40px;
     color: white;
@@ -67,8 +72,8 @@ body {
 #bottontop {
     border: 2px solid white;
     position: fixed;
-    bottom: 10px;
-    right: 50px;
+    bottom:0px;
+    right: 40px;
     width: 40px;
     border-radius: 100px;
     color: white;
@@ -80,8 +85,8 @@ body {
 #bottondown{
     border: 2px solid white;
      position: fixed;
-     bottom: 10px;
-     right: 10px;
+     bottom: 0px;
+     right: 0px;
     width: 40px;
     border-radius: 100px;
     color: white;
@@ -98,18 +103,19 @@ body {
     border-radius: 15px;
     margin-top: 30px;
 }
-.p1 {
+.openday {
     font-family: "Helvetica";
     font-size: 16pt;
     color: white;
     height: 10px;
     text-align: center;
 }
-.p2 {
+.infopen {
     text-align: center;
     font-family: "Helvetica";
     color: white;
 }
+
 .boxopenday2 {
     max-width: 600px;
     margin: auto;
@@ -127,34 +133,36 @@ body {
     background-color: #2a1648;
     opacity: 0.7;
 }
+.col-sm-4{
+    text-align: center;
+    margin: auto;
+}
 #icona1 {
     font-size: 50pt;
-    margin:20px auto auto 300px;
     color: white;
+    margin-top:20px;
 }
-#p3 {
+#ic1text {
     width: 200px;
     height: 100px;
-    margin: 50px 0px 0px 220px;
-    text-align: center;
+    text-align:center;
+    margin-top: 50px;
+    margin-left:130px;
     font-family: "Bebas Neue";
     color: white;
     font-size: 14pt;
 }
 #icona2 {
     font-size: 50pt;
-    margin-top: 18px;
-    margin-right: 0px;
-    margin-left: 200px;
+    margin-top: 20px;
     color: white;
 }
 #icona3 {
     font-size: 45pt;
     margin-top: 20px;
-    margin-left: 90px;
     color: white;
 }
-#p4 {
+#ic2text {
     width: 200px;
     height: 100px;
     margin-left: 130px;
@@ -164,11 +172,11 @@ body {
     color: white;
     font-size: 14pt;
 }
-#p5 {
+#ic3text {
     width: 200px;
     height: 100px;
     margin-top: 50px;
-    margin-left:10px;
+    margin-left:130px;
     text-align: center;
     font-family: "Bebas Neue";
     color: white;
@@ -176,7 +184,7 @@ body {
 }
 #boxconvideo {
     max-width: 850px;
-    height: 292px;
+    height: 300px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -184,32 +192,32 @@ body {
     color: white;
 }
 #video {
-    width: 450px;
-    height: 292px;
+   width: 450px;
+    height: 300px;
     float: right;
     margin: 0px 0px 0px 0px;
     border-radius: 10px;
 }
-#titolo1 {
+.titoletto {
     letter-spacing: 3px;
     font-family: Helvetica;
     margin: 0px 0px 0px 20px;
     font-size: 10pt;
 }
-#rettangolino {
+.rettangolino {
     width: 5px;
     height: 40px;
     background-color: #daa520;
     margin: 80px 0px 0px 20px;
 }
-#titolo2 {
+.titolone {
     font-family: Helvetica;
     font-size: 24pt;
-    width: 400px;
+    width:350px;
     margin-left: 20px;
     margin-top: -30px;
 }
-#paragrafo8 {
+.infotext {
     font-family: Helvetica;
     margin: 40px 0px 0px 0px;
     width: 450px;
@@ -271,50 +279,60 @@ body {
     border: 3px solid white;
 }
 #indirizzo1 {
-    max-width: 1600px;
-    height: 400px;
+    min-height: 380px;
     background-color: #8a00b5;
     margin-top: 20px;
     opacity: 0.8;
 }
-#dipartimento {
+.dipartimento{
+    max-width:80%;
     font-size: 24pt;
     color: white;
-    width: 400px;
-    text-align: center;
-    margin: auto;
+    width: 660px;
     font-family: Helvetica;
+    display:inline-block;
+    margin-left:5px;
 }
-#rettangolino3 {
+
+.rettangolino3 {
     width: 5px;
     height: 40px;
     background-color: #daa520;
     margin: 0px 0px 0px 20px;
+    display:inline-block;
 }
 #pittura {
-    margin-left:700px;
+  
     font-size: 24pt;
     color: #daa520;
     font-family: "Bebas Neue";
+    cursor: pointer;
 }
-.pittura:hover{
-    outline: 1px solid white;
+#pittura:hover{
+    color: white;
 }
 .scuole {
-    margin: 0px 0px 0px 460px;
+   margin: auto;
     font-size: 18pt;
     width: 576px;
     color: white;
     text-align: center;
     font-family: "Bebas Neue";
 }
+.indirizzo-content,.indirizzo-content p{
+    margin:auto;
+    text-align: center;
+}
 #grafica {
-    margin: 0px 0px 0px 550px;
     font-size: 24pt;
-    width: 400px;
+    max-width: 400px;
     color: #00b3ff;
     text-align: center;
     font-family: "Bebas Neue";
+    cursor: pointer;
+}
+#grafica:hover{
+    color: white;
 }
 #indirizzo2 {
     width: 100%;
@@ -324,54 +342,54 @@ body {
     margin-top: 20px;
     opacity: 0.8;
 }
-#dipartimento2 {
-    font-size: 24pt;
-    color: white;
-    width: 700px;
-    text-align: center;
-    margin-top: -40px;
-    font-family: Helvetica;
-}
+
 #scenografia {
-    margin: 30px 0px 0px 700px;
     font-size: 24pt;
     color: #00b378;
     font-family: "Bebas Neue";
+    cursor: pointer;
+}
+#scenografia:hover{
+    color: white;
 }
 #progettazione {
-    margin: 30px 0px 0px 550px;
+     margin-top:30px;
     font-size: 24pt;
     color: #eb0000;
     font-family: "Bebas Neue";
+    cursor: pointer;
+}
+#progettazione:hover{
+    color: white;
 }
 #tecnologie {
-    margin: 30px 0px 0px 600px;
+   margin-top:30px;
     font-size: 24pt;
     color: #fa8717;
     font-family: "Bebas Neue";
+    cursor: pointer;
+}
+#tecnologie:hover{
+    color: white;
 }
 #indirizzo3 {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background-color: #8a00b5;
     margin: auto;
     margin-top: 20px;
     opacity: 0.8;
 }
-#dipartimento3 {
-    font-size: 24pt;
-    color: white;
-    width: 700px;
-    text-align: center;
-    margin-top: -40px;
-    margin-left: 20px;
-    font-family: Helvetica;
-}
+
 #comunicazione {
-    margin: 30px 0px 0px 400px;
+    margin-top:30px;
     font-size: 24pt;
     color: #befc12;
     font-family: "Bebas Neue";
+    cursor: pointer;
+}
+#comunicazione:hover{
+    color: white;
 }
 #boxdurata {
     max-width: 850px;
@@ -383,23 +401,22 @@ body {
     color: white;
     border-radius: 30px;
 }
-#rettangolino4 {
+.rettangolino4 {
     width: 5px;
     height: 90px;
     background-color: #daa520;
     margin: 10px 0px 0px 80px;
 }
-#duratatitoli {
+.duratatitoli {
     font-family: Helvetica;
     font-size: 24pt;
-    width: 400px;
     margin: -40px 0px 0px 100px;
 }
-#spiegazione {
+.spiegazione {
     font-family: "Helvetica";
     margin: 50px 0px 0px 20px;
-    max-width: 770px;
-    text-align: giustify;
+    max-width: 750px;
+    text-align: justify;
 }
 #boxborse {
     max-width: 850px;
@@ -422,6 +439,7 @@ body {
     background-color: #712cc5;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 0px;
 }
 #testofooter {
     text-align: center;
@@ -460,15 +478,51 @@ body {
 .hidden{
     display:none;
 }
-@media screen and (max-width:810px){
+@media screen and (min-width:1008px){
+    #ic1text{
+        margin:30px auto 0px auto;
+    }
+    #ic2text{
+        margin:30px auto 0px auto;
+    }
+    #ic3text{
+        margin:30px auto 0px auto; 
+    }
+    #contact{
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:1007px){
     #acme {
-        margin:10px 180px 0px 0px;
+        margin:10px auto 0px 0px;
     }
-    #logo {
-        margin-left: 240px;
+    .col-sm-4{
+        text-align:center;
     }
-    #discovermore{
-     margin-left:340px;   
+    #ic1text{
+        margin-left:0px;
+    }
+    #ic2text{
+        margin-left:20px;
+    }
+    #ic3text{
+        margin-left:20px;
+    }
+    .infotext{
+        width:280px;
+        margin-top:5px;
+    }
+    #boxconvideo{
+        height:330px;
+    }
+    #video{
+        height:330px;
+    }
+    .spiegazione{
+        width:90%;
+    }
+    #contact{
+        bottom:0px;
     }
 }
 @media only screen and (max-width:576px){
@@ -476,53 +530,62 @@ body {
         margin:0px auto 0px auto;
     }
     #acme {
-        margin: 50px 0px 0px auto;
+        margin: 50px auto 0px auto;
     }
-    #logo{
-        margin-left:0px;
-    }
+   
    #body{
         margin:50px auto 0px auto;
         background-size: 180%;
     } 
      #discovermore{
-        margin:100px auto 0px 130px;
+        margin:100px auto 0px auto;
+    }
+    .col-sm-4{
+        margin: auto;
     }
     #icona1{
-        margin: 20px 50px auto 150px;
+        text-align: center;
+        margin-top:50px;
+        
     }
-    #p3{
-        margin: 30px auto auto 80px;
+    #ic1text{
+        margin: 30px auto auto auto;
     }
     #icona2{
-        margin: 80px 0px auto 150px;
+        text-align: center;
+        margin-top:50px;
     }
-    #p4{
-        margin: 30px 0px 0px 80px;
+    #ic2text{
+        margin: 30px auto auto auto;
     }
     #icona3{
-        margin: 50px 0px 0px 150px; 
+        text-align: center; 
     }
-    #p5{
-        margin: 30px 0px 0px 80px;
+    #ic3text{
+        margin: 30px auto auto auto;
     }
     #box3 {
         height: 850px;
     }
     #boxconvideo{
-        height:600px;
+        height:700px;
     }
-    #paragrafo8{
-        width:350px;
+    .titolone{
+        width:279px;
+    }
+    
+    .infotext{
+        width:250px;
+        margin-top: 0px;
     }
     #video{
-        width:400px;
+        width:100%;
     }
     #virgolette{
         margin:auto 0px auto 180px;
     }
     #rettangolo4{
-        height:300px;
+        min-height:450px;
     }
     #palette{
         font-size:42pt;
@@ -538,63 +601,52 @@ body {
        margin: 20px 20px auto auto;
     }
     #indirizzo1 {
-        height: 380px;
+        height: 450px;
     }
-    #dipartimento{
-        width:350px;
-    }
+    
     #pittura {
-        margin:30px 0px 0px 140px;
+        margin:30px auto 0px auto;
     }
     #grafica {
-        margin:1px 0px 0px -20px;
+        margin:1px auto 0px auto;
     }
     .scuole {
         width: 320px;
         margin:0px 0px auto 20px;
     }
-    #dipartimento2 {
-        width:385px;
-    }
-    #scenografia {
-        margin: 30px 0px 0px 120px;
-    }
-    #progettazione {
-        width:300px;
-        margin: 20px 0px 0px 40px; 
-        text-align: center;
-    }
+  
+ 
+   
     #indirizzo2 {
         height:850px;
     }
-    #tecnologie {
-        margin: 30px 0px 0px 10px;
-        text-align: center;
-    }
+   
     #indirizzo3 {
         height:450px;
     }
-    #dipartimento3{
-        width:330px;
-    }
-    #comunicazione {
-        margin: 20px 0px 0px 10px;
-        text-align: center;
-    }
+    
+  
     #rettangolino4{
         margin-left:40px;
     }
     #duratatitoli{
         margin-left:50px;
     }
+    .spiegazione{
+       width:90%;
+    }
     #map{
         width:100%;
     }
     #bottondown{
-        margin-right: 80px;
+        margin-right: 0px;
     }
     #bottontop{
-        margin-right:80px;
+        margin-right:0px;
+    }
+    #contact{
+        bottom: 0px;
+        height: 220px;
     }
 }
 
