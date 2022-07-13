@@ -137,51 +137,24 @@ body {
     text-align: center;
     margin: auto;
 }
-#icona1 {
+.icona {
     font-size: 50pt;
     color: white;
     margin-top:20px;
 }
-#ic1text {
+.ictext {
     width: 200px;
-    height: 100px;
+   
     text-align:center;
-    margin-top: 50px;
-    margin-left:130px;
+
+        margin:30px auto 0px auto;
+
     font-family: "Bebas Neue";
     color: white;
     font-size: 14pt;
 }
-#icona2 {
-    font-size: 50pt;
-    margin-top: 20px;
-    color: white;
-}
-#icona3 {
-    font-size: 45pt;
-    margin-top: 20px;
-    color: white;
-}
-#ic2text {
-    width: 200px;
-    height: 100px;
-    margin-left: 130px;
-    margin-top: 50px;
-    text-align: center;
-    font-family: "Bebas Neue";
-    color: white;
-    font-size: 14pt;
-}
-#ic3text {
-    width: 200px;
-    height: 100px;
-    margin-top: 50px;
-    margin-left:130px;
-    text-align: center;
-    font-family: "Bebas Neue";
-    color: white;
-    font-size: 14pt;
-}
+
+
 #boxconvideo {
     max-width: 850px;
     height: 300px;
@@ -479,15 +452,8 @@ body {
     display:none;
 }
 @media screen and (min-width:1008px){
-    #ic1text{
-        margin:30px auto 0px auto;
-    }
-    #ic2text{
-        margin:30px auto 0px auto;
-    }
-    #ic3text{
-        margin:30px auto 0px auto; 
-    }
+   
+   
     #contact{
         bottom: 0px;
     }
@@ -499,15 +465,8 @@ body {
     .col-sm-4{
         text-align:center;
     }
-    #ic1text{
-        margin-left:0px;
-    }
-    #ic2text{
-        margin-left:20px;
-    }
-    #ic3text{
-        margin-left:20px;
-    }
+
+  
     .infotext{
         width:280px;
         margin-top:5px;
@@ -523,6 +482,21 @@ body {
     }
     #contact{
         bottom:0px;
+    }
+}
+@media only screen and (max-width:700px){
+   #box3 {
+        height: 850px;
+    }
+    .col-sm-4 {
+        margin: auto;
+        min-width:100%;
+    }
+  #boxconvideo{
+        height:700px;
+    }
+    #video{
+        width:100%;
     }
 }
 @media only screen and (max-width:576px){
@@ -543,33 +517,20 @@ body {
     .col-sm-4{
         margin: auto;
     }
-    #icona1{
+    .icona{
         text-align: center;
         margin-top:50px;
         
     }
-    #ic1text{
+    .ictext{
         margin: 30px auto auto auto;
     }
-    #icona2{
-        text-align: center;
-        margin-top:50px;
-    }
-    #ic2text{
-        margin: 30px auto auto auto;
-    }
-    #icona3{
-        text-align: center; 
-    }
-    #ic3text{
-        margin: 30px auto auto auto;
-    }
+    
+   
     #box3 {
         height: 850px;
     }
-    #boxconvideo{
-        height:700px;
-    }
+   
     .titolone{
         width:279px;
     }
@@ -578,9 +539,7 @@ body {
         width:250px;
         margin-top: 0px;
     }
-    #video{
-        width:100%;
-    }
+    
     #virgolette{
         margin:auto 0px auto 180px;
     }
