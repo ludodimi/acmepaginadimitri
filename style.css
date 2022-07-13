@@ -1,6 +1,19 @@
 html{
     display:block;
 }
+h1{
+    font-size:16pt !important;
+
+}
+
+
+h2.ictext{
+    color: white;
+   
+    font-size:15pt ;
+    font-weight: bold;
+     margin-top:30px;
+}
 body {
     background-image: url("foto-web/wallpaper.webp");
     background-size: 100%;
@@ -147,7 +160,7 @@ body {
    
     text-align:center;
 
-        margin:30px auto 0px auto;
+        margin:0px auto 0px auto;
 
     font-family: "Bebas Neue";
     color: white;
