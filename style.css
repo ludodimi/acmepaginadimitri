@@ -198,13 +198,13 @@ h3 {
 h4 {
     font-family: Helvetica;
     font-size: 24pt;
-    max-width:350px;
+    width:350px;
     margin-left: 20px;
     margin-top: -30px;
 }
 .infotext {
     font-family: Helvetica;
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     width: 450px;
 }
 #boxconcitazione {
@@ -509,6 +509,9 @@ h4 {
     }
     #video{
         width:100%;
+    }
+    h4{
+        width: 290px;
     }
 }
 @media only screen and (max-width:576px){
