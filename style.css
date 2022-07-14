@@ -496,7 +496,7 @@ h4 {
 }
 @media only screen and (max-width:700px){
     .lingue-bandiere{
-     float:left;   
+     float:left !important;   
     }
     #box3 {
         height: 850px;
