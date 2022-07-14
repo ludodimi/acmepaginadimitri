@@ -184,7 +184,7 @@ body {
     margin: 0px 0px 0px 0px;
     border-radius: 10px;
 }
-.titoletto {
+h3 {
     letter-spacing: 3px;
     font-family: Helvetica;
     margin: 0px 0px 0px 20px;
@@ -196,7 +196,7 @@ body {
     background-color: #daa520;
     margin: 80px 0px 0px 20px;
 }
-.titolone {
+h4 {
     font-family: Helvetica;
     font-size: 24pt;
     width:350px;
