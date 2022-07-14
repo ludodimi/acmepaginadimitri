@@ -495,7 +495,7 @@ h4 {
     }
 }
 @media only screen and (max-width:700px){
-    .lingue-bandiere{
+    #flags{
      float:left !important;   
     }
     #box3 {
