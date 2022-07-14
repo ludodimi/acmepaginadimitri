@@ -9,10 +9,9 @@ h1{
 
 h2.ictext{
     color: white;
-   
-    font-size:15pt ;
+    font-size:15pt;
     font-weight: bold;
-     margin-top:30px;
+    margin-top:30px;
 }
 body {
     background-image: url("foto-web/wallpaper.webp");
@@ -544,7 +543,7 @@ h4 {
         height: 950px;
     }
    
-    .titolone{
+    h4{
         width:279px;
     }
     
@@ -586,13 +585,9 @@ h4 {
         width: 320px;
         margin:0px 0px auto 20px;
     }
-  
- 
-   
     #indirizzo2 {
         height:850px;
     }
-   
     #indirizzo3 {
         height:450px;
     }
