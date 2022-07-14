@@ -495,7 +495,10 @@ h4 {
     }
 }
 @media only screen and (max-width:700px){
-   #box3 {
+    .lingue-bandiere{
+     float:left;   
+    }
+    #box3 {
         height: 850px;
     }
     .col-sm-4 {
@@ -517,7 +520,7 @@ h4 {
         margin:0px auto 0px auto;
     }
     .lingue-bandiere{
-        margin: 15px auto 0px auto;
+        margin: 5px auto 0px auto;
     }
     #acme {
         margin: auto;
