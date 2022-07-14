@@ -1,12 +1,6 @@
-html{
-    display:block;
-}
 h1{
     font-size:16pt !important;
-
 }
-
-
 h2.ictext{
     color: white;
     font-size:15pt;
@@ -26,7 +20,6 @@ body {
     margin: 100px auto 0px auto;
     display:block;
 }
-
 #discovermore {
     display:block;
     text-align: center;
@@ -67,8 +60,7 @@ body {
     border-bottom: 1px solid blue;
     margin-bottom: 20px;
     text-align: center;
-     z-index:1;
-
+    z-index:1;
 }
 #flags{
     position:absolute;
@@ -96,17 +88,16 @@ body {
 }
 #bottondown{
     border: 2px solid white;
-     position: fixed;
-     bottom: 0px;
-     right: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
     width: 40px;
     border-radius: 100px;
     color: white;
     text-align: center;
     font-family: "Bebas Neue";
     font-size:14pt;
-     cursor: pointer;
-     
+    cursor: pointer;  
 }
 #boxopenday1 {
     max-width: 600px;
@@ -127,7 +118,6 @@ body {
     font-family: "Helvetica";
     color: white;
 }
-
 .boxopenday2 {
     max-width: 600px;
     margin: auto;
@@ -156,17 +146,12 @@ body {
 }
 .ictext {
     width: 200px;
-   
     text-align:center;
-
-        margin:0px auto 0px auto;
-
+    margin:0px auto 0px auto;
     font-family: "Bebas Neue";
     color: white;
     font-size: 14pt;
 }
-
-
 #boxconvideo {
     max-width: 850px;
     height: 300px;
@@ -177,7 +162,7 @@ body {
     color: white;
 }
 #video {
-   width: 450px;
+    width: 450px;
     height: 300px;
     float: right;
     margin: 0px 0px 0px 0px;
@@ -278,7 +263,6 @@ h4 {
     display:inline-block;
     margin-left:5px;
 }
-
 .rettangolino3 {
     width: 5px;
     height: 40px;
@@ -287,7 +271,6 @@ h4 {
     display:inline-block;
 }
 #pittura {
-  
     font-size: 24pt;
     color: #daa520;
     font-family: "Bebas Neue";
@@ -297,7 +280,7 @@ h4 {
     color: white;
 }
 .scuole {
-   margin: auto;
+    margin: auto;
     font-size: 18pt;
     width: 576px;
     color: white;
@@ -338,23 +321,23 @@ h4 {
     color: white;
 }
 #progettazione {
-     margin-top:30px;
+    margin-top:30px;
     font-size: 24pt;
     color: #eb0000;
     font-family: "Bebas Neue";
     cursor: pointer;
 }
-#progettazione:hover{
+#progettazione:hover {
     color: white;
 }
 #tecnologie {
-   margin-top:30px;
+    margin-top:30px;
     font-size: 24pt;
     color: #fa8717;
     font-family: "Bebas Neue";
     cursor: pointer;
 }
-#tecnologie:hover{
+#tecnologie:hover {
     color: white;
 }
 #indirizzo3 {
@@ -373,7 +356,7 @@ h4 {
     font-family: "Bebas Neue";
     cursor: pointer;
 }
-#comunicazione:hover{
+#comunicazione:hover {
     color: white;
 }
 #boxdurata {
@@ -448,24 +431,22 @@ h4 {
 #cookieicon{
     border: 1px solid #743202;
     border-radius: 100px;
-     cursor: pointer;
+    cursor: pointer;
 }
 #cookietext {
-  background-color: indigo;
-  color: white;
-  font-size:9pt;
-  width:240px;
-  border-radius: 5px;
-  margin:-164px 0px 20px 60px;
-   cursor: pointer;
-   font-family:Helvetica;
+    background-color: indigo;
+    color: white;
+    font-size:9pt;
+    width:240px;
+    border-radius: 5px;
+    margin:-164px 0px 20px 60px;
+    cursor: pointer;
+    font-family:Helvetica;
 }
-.hidden{
+.hidden {
     display:none;
 }
 @media screen and (min-width:1008px){
-   
-   
     #contact{
         bottom: 0px;
     }
@@ -477,8 +458,6 @@ h4 {
     .col-sm-4{
         text-align:center;
     }
-
-  
     .infotext{
         width:280px;
         margin-top:5px;
@@ -521,7 +500,6 @@ h4 {
     #acme {
         margin: 50px auto 0px auto;
     }
-   
    #body{
         margin:50px auto 0px auto;
         background-size: 180%;
@@ -535,26 +513,20 @@ h4 {
     .icona{
         text-align: center;
         margin-top:50px;
-        
     }
     .ictext{
         margin: 30px auto auto auto;
     }
-    
-   
     #box3 {
         height: 950px;
     }
-   
     h4{
         width:279px;
     }
-    
     .infotext{
         width:250px;
         margin-top: 0px;
     }
-    
     #virgolette{
         margin:auto 0px auto 180px;
     }
@@ -577,7 +549,6 @@ h4 {
     #indirizzo1 {
         height: 450px;
     }
-    
     #pittura {
         margin:30px auto 0px auto;
     }
@@ -594,8 +565,6 @@ h4 {
     #indirizzo3 {
         height:450px;
     }
-    
-  
     #rettangolino4{
         margin-left:40px;
     }
